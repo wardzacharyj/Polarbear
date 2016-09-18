@@ -35,7 +35,7 @@ public class AsyncRecipe extends AsyncTask<String , Void ,String>  {
 
     @Override
     protected String doInBackground(String... strings) {
-
+        /*
         try{
             HttpResponse<JsonNode> response = Unirest.get("https://spoonacular-recipe-food-nutrition-v1.p.mashape.com/recipes/findByIngredients?fillIngredients=false&ingredients=apples%2Cflour%2Csugar&limitLicense=false&number=5&ranking=1")
                     .header("X-Mashape-Key","z9ajPi1c8ImshLh8xIzTU2hUCNmxp1e27VUjsndjkg2I9U9q1U")
@@ -46,7 +46,7 @@ public class AsyncRecipe extends AsyncTask<String , Void ,String>  {
         }catch (Exception e){
 
         }
-
+        */
         return null;
     }
 
