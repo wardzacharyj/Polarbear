@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Polarbear</string>
+    <string name="suggestions">Suggestions</string>
+    <string name="add">Add</string>
+    <string name="manual_entry">Manual Entry</string>
+    <string name="scanner">Scanner</string>
+    <string name="title_placeholder">Title Here</string>
+    <string name="subtitle_placeholder">Subtitle Here</string>
+    <string name="caption_textholder">Caption Here</string>
+    
+    <string name="menu_item_fridge">Fridge</string>
+
+
+    <string name="confirm_name">Name</string>
+    <string name="confirm_brand">Brand</string>
+    <string name="confirm_use_by_date">Select expiration date</string>
+    <string name="confirm_type">What kind of food is it?</string>
+    <string name="confirm_weight">What is the net weight?</string>
+
+    <string name="recent">Recent</string>
+    <string name="current">Current</string>
+    <string name="tips">Tips</string>
+
+
+    <string name="cat_dairy">Dairy</string>
+    <string name="cat_drinks">Drinks</string>
+    <string name="cat_fruits_vegetables">Produce</string>
+    <string name="cat_grains">Grains</string>
+    <string name="cat_other">Other</string>
+    <string name="cat_proteins">Proteins</string>
+
+    <string name="choose_expiration">Select Expiration Date</string>
+
+    <string name="mat_title">Oops</string>
+    <string name="mat_content">Please fill more of the fields</string>
+    <string name="mat_confirm">Ok</string>
+
+    <string name="menu_item_sort">Sort</string>
+    <string-array name="food_categories">
+        <item>@string/cat_dairy</item>
+        <item>@string/cat_drinks</item>
+        <item>@string/cat_fruits_vegetables</item>
+        <item>@string/cat_grains</item>
+        <item>@string/cat_other</item>
+        <item>@string/cat_proteins</item>
+    </string-array>
+
+
+    <string-array name="us_units_ab">
+        <item>fl. oz.</item>
+        <item>gal.</item>
+        <item>lb.</item>
+        <item>oz.</item>
+        <item>pt.</item>
+        <item>qt.</item>
+    </string-array>
+
+    <string-array name="us_units">
+        <item>fluid ounce</item>
+        <item>gallon</item>
+        <item>pound</item>
+        <item>ounce</item>
+        <item>pint</item>
+        <item>quart</item>
+    </string-array>
+
+    <string name="dialog_title">Hey</string>
+    <string name="dialog_des">We noticed you have scanned that item before do you want to skip the confirmation screen ?</string>
+    <string name="dialog_pos">Yes</string>
+    <string name="dialog_neg">No</string>
+
+</resources>

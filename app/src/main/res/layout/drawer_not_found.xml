@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greyLight"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="@string/manual_entry"
+        android:textAllCaps="true"
+        android:gravity="center_vertical"
+        android:layout_marginStart="@dimen/margin_16dp"
+        android:layout_marginEnd="@dimen/margin_16dp"/>
+
+    <LinearLayout
+        android:id="@+id/item_row_1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_weight=".25">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:elevation="@dimen/margin_4dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:layout_marginStart="@dimen/margin_16dp"
+            android:layout_marginEnd="@dimen/margin_8dp"
+            android:layout_marginBottom="@dimen/margin_8dp"
+            android:gravity="center"
+            android:layout_weight=".5">
+
+            <ImageView
+                android:id="@+id/cat_icon_dairy"
+                android:layout_width="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:layout_below="@+id/cat_icon_dairy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cat_dairy"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/margin_4dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:elevation="@dimen/margin_4dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:layout_marginStart="@dimen/margin_8dp"
+            android:layout_marginEnd="@dimen/margin_16dp"
+            android:layout_marginBottom="@dimen/margin_8dp"
+            android:gravity="center"
+            android:layout_weight=".5">
+
+            <ImageView
+                android:id="@+id/cat_icon_drinks"
+                android:layout_width="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:layout_below="@+id/cat_icon_drinks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cat_drinks"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/margin_4dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item_row_2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_weight=".25">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:elevation="@dimen/margin_4dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:layout_marginStart="@dimen/margin_16dp"
+            android:layout_marginEnd="@dimen/margin_8dp"
+            android:layout_marginBottom="@dimen/margin_8dp"
+            android:gravity="center"
+            android:layout_weight=".5">
+
+            <ImageView
+                android:id="@+id/cat_icon_fruits_vegetables"
+                android:layout_width="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:layout_below="@+id/cat_icon_fruits_vegetables"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cat_fruits_vegetables"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/margin_4dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:elevation="@dimen/margin_4dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:layout_marginStart="@dimen/margin_8dp"
+            android:layout_marginEnd="@dimen/margin_16dp"
+            android:layout_marginBottom="@dimen/margin_8dp"
+            android:gravity="center"
+            android:layout_weight=".5">
+
+            <ImageView
+                android:id="@+id/cat_icon_grains"
+                android:layout_width="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:layout_below="@+id/cat_icon_grains"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cat_grains"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/margin_4dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item_row_3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_weight=".25">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:elevation="@dimen/margin_4dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:layout_marginStart="@dimen/margin_16dp"
+            android:layout_marginEnd="@dimen/margin_8dp"
+            android:layout_marginBottom="@dimen/margin_8dp"
+            android:gravity="center"
+            android:layout_weight=".5">
+
+            <ImageView
+                android:id="@+id/cat_icon_other"
+                android:layout_width="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:layout_below="@+id/cat_icon_other"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cat_other"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/margin_4dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:elevation="@dimen/margin_4dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:layout_marginStart="@dimen/margin_8dp"
+            android:layout_marginEnd="@dimen/margin_16dp"
+            android:layout_marginBottom="@dimen/margin_8dp"
+            android:gravity="center"
+            android:layout_weight=".5">
+
+            <ImageView
+                android:id="@+id/cat_icon_proteins"
+                android:layout_width="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:layout_below="@+id/cat_icon_proteins"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cat_proteins"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/margin_4dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".15"
+        android:gravity="center">
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/margin_8dp"
+            app:fabSize="normal"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

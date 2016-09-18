@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_8dp">
+
+            <TextView
+                android:id="@+id/textTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/margin_4dp"
+                android:paddingTop="@dimen/margin_4dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_alignStart="@+id/textSubTitle"
+                android:layout_toStartOf="@+id/pointValue"
+                android:text="@string/title_placeholder"/>
+
+            <TextView
+                android:id="@+id/textSubTitle"
+                android:layout_below="@+id/textTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:paddingTop="@dimen/margin_4dp"
+                android:paddingLeft="@dimen/margin_4dp"
+                android:paddingBottom="@dimen/margin_4dp"
+                android:layout_toStartOf="@+id/pointValue"
+                android:text="@string/subtitle_placeholder" />
+
+            <TextView
+                android:layout_toStartOf="@+id/pointValue"
+                android:id="@+id/textCaption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/caption_textholder"
+                android:layout_below="@+id/textSubTitle"
+                android:paddingLeft="@dimen/margin_4dp"
+                android:paddingBottom="@dimen/margin_4dp"
+               />
+
+            <ImageView
+                android:id="@+id/food_image"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="@dimen/margin_8dp"
+                android:scaleType="centerCrop"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:background="@android:color/transparent"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true" />
+
+
+        </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/md_divider_black"
+        android:layout_height="1dp"></View>
+
+
+
+</LinearLayout>
